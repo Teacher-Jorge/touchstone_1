@@ -16,6 +16,11 @@ const correct6 = document.getElementById('correct6')
 const correct7 = document.getElementById('correct7')
 const correct8 = document.getElementById('correct8')
 
+addEventListener('keydown', (e) => {
+    const audio = document.getElementById('click')
+    audio.play()
+})
+
 addEventListener('keyup', (e) => {
     if (input1.value === "Are" || input1.value === "are") {
         correct1.style.visibility = 'visible'

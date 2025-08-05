@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playpen+Sans:wght@100..800&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 2, 29);
+    cursor: pointer;
+    font-family: 'kanit';
+    font-style: italic;
+}
+
+.words-box {
+    width: 1320px;
+    height: 40px;
+    color: white;
+    border: white 1px solid;
+    text-align: center;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    font-family: 'kanit';
+    font-style: italic;
+    font-size: 25px;
+}
+
+.instructions {
+    font-size: 25px;
+    color: rgb(0, 225, 255);
+    margin-bottom: 10px;
+}
+
+.instructions:hover {
+    background-color: lime;
+    color: black;
+    border-radius: 5px;
+}
+
+.container-master {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1000px;
+    height: 650px;
+    padding: 14px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'kanit';
+    font-style: italic;
+    position: relative;
+    top: -50px;
+}
+
+.item {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.inputs {
+    width: 35px;
+    height: 25px;
+    border: none;
+    background-color: rgb(229, 243, 255);
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 51, 0);
+    border-radius: 4px;
+    border-bottom: steelblue 1px solid;
+    font-family: 'bree serif';
+    font-family: 'kanit';
+    font-style: italic;
+}
+
+#input1 {
+    width: 35px;
+}
+
+#input2 {
+    width: 75px;
+    margin-left: 2px;
+}
+
+#input3 {
+    width: 35px;
+}
+
+#input4 {
+    width: 60px;
+}
+
+#input5 {
+    width: 70px;
+}
+
+#input6 {
+    width: 70px;
+}
+
+#input7 {
+    width: 70px;
+}
+
+#input8 {
+    width: 40px;
+    margin-left: 1px;
+}
+
+#input9 {
+    width: 35px;
+    margin-left: 1px;
+}
+
+#input10 {
+    width: 65px;
+    margin-left: 1px;
+}
+
+#input11 {
+    width: 55px;
+    margin-left: 1px;
+}
+
+#input12 {
+    width: 60px;
+    margin-left: 1px;
+}
+
+.correct {
+    visibility: hidden;
+}
+
+
