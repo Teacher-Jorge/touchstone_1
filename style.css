@@ -68,9 +68,10 @@ body {
 }
 
 .items {
-    width: 200px;
+    width: 220px;
     border: rgb(0, 140, 255) 1px solid;
     margin: 5px;
+    display: flex; 
 }
 
 .items:hover {
