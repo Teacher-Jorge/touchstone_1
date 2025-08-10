@@ -59,6 +59,14 @@ body {
     top: -50px;
 }
 
+.names1 {
+    color: rgb(184, 0, 201);
+}
+
+.names2 {
+    color:rgb(255, 123, 0);
+}
+
 .item {
     font-size: 20px;
     padding: 5px;
