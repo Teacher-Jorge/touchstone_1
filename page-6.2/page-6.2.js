@@ -24,7 +24,7 @@ addEventListener('keydown', (e) => {
 addEventListener('keyup', (e) => {
     if (input1.value === "Are" || input1.value === "are") {
         correct1.style.visibility = 'visible'
-        input1.value = "Are"
+        input1.value = "are"
         input1.style.color = 'darkgreen'
         input1.style.backgroundColor = 'yellow'
         document.getElementById('input2').focus();

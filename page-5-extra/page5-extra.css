@@ -10,73 +10,26 @@ body {
     font-style: italic;
 }
 
-.grammar {
+.words-box {
+    width: 1320px;
+    height: 40px;
+    color: white;
+    border: white 1px solid;
+    text-align: center;
+    justify-content:space-evenly;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 340px;
-    height: 650px;
-    background-color: rgb(109, 1, 1);
-    position: fixed;
-    left: 1560px;
-    top: 8px;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
     font-family: 'kanit';
     font-style: italic;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px;
-    box-shadow: 1px 1px 3px black;
-    border-radius: 10px;
-    color: white;
-}
-
-.examples {
-    font-size: 20px;
-    width: 350px;
-    text-align: center;
-}
-
-.line {
-    border-bottom: white 1px solid;
-    width: 320px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.examples:hover {
-    background-color: yellow;
-    color: red;
-    box-shadow: 1px 1px 2px black;
-    border-radius: 5px;
-    text-shadow: 1px 1px 2px black;
-}
-
-.hilight {
-    color: rgb(238, 255, 0);
-}
-
-.hilight-title {
-    color: rgb(255, 0, 212);
-    font-size: 30px;
-}
-
-.main-img {
-    width: 400px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    box-shadow: 1px 1px 3px black;
+    font-size: 25px;
 }
 
 .instructions {
     font-size: 25px;
     color: rgb(0, 225, 255);
     margin-bottom: 10px;
-}
-
-.words {
-    font-style: italic;
-    color: rgb(247, 0, 255);
-    text-decoration: underline;
 }
 
 .instructions:hover {
@@ -87,29 +40,31 @@ body {
 
 .container-master {
     display: flex;
+    position: relative;
+    top: 100px;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 700px;
-    max-height: 600px;
-    padding: 4px;
+    max-width: 1000px;
+    height: 650px;
+    padding: 14px;
     background-color: aliceblue;
-    box-shadow: 1px 1px 3px black;
     border-radius: 10px;
     font-size: 20px;
     font-family: 'kanit';
     font-style: italic;
-    margin-right: 3px;
+    position: relative;
+    top: -50px;
 }
 
-.nameA {
-    color: rgb(212, 68, 1);
+.names1 {
+    color: rgb(184, 0, 201);
 }
 
-.nameB {
-    color: rgb(0, 111, 155);
+.names2 {
+    color:rgb(255, 123, 0);
 }
 
 .item {
@@ -133,46 +88,57 @@ body {
 }
 
 #input1 {
-    width: 170px;
+    width: 35px;
 }
 
 #input2 {
-    width: 235px;
+    width: 75px;
     margin-left: 2px;
 }
 
 #input3 {
-    width: 25px;
+    width: 35px;
 }
 
 #input4 {
-    width: 135px;
+    width: 60px;
 }
 
 #input5 {
-    width: 120px;
+    width: 70px;
 }
 
 #input6 {
-    width: 165px;
+    width: 70px;
 }
 
 #input7 {
-    width: 25px;
+    width: 70px;
 }
 
 #input8 {
-    width: 295px;
+    width: 40px;
     margin-left: 1px;
 }
 
 #input9 {
-    width: 235px;
+    width: 35px;
     margin-left: 1px;
 }
 
 #input10 {
-    width: 25px;
+    width: 65px;
+    margin-left: 1px;
+}
+
+#input11 {
+    width: 55px;
+    margin-left: 1px;
+}
+
+#input12 {
+    width: 60px;
+    margin-left: 1px;
 }
 
 .correct {
