@@ -14,17 +14,17 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    height: 715px;
+    width: 340px;
+    height: 600px;
     background-color: rgb(109, 1, 1);
     position: fixed;
-    left: 1450px;
+    left: 1550px;
     top: 8px;
     font-family: 'kanit';
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     box-shadow: 1px 1px 3px black;
     border-radius: 10px;
     color: white;
@@ -38,7 +38,7 @@ body {
 
 .line {
     border-bottom: white 1px solid;
-    width: 400px;
+    width: 340px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -61,7 +61,7 @@ body {
 }
 
 .main-img {
-    width: 480px;
+    width: 400px;
     border-radius: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 3px black;
@@ -73,28 +73,47 @@ body {
     margin-bottom: 10px;
 }
 
+.words {
+    font-style: italic;
+    color: rgb(247, 0, 255);
+    text-decoration: underline;
+}
+
 .instructions:hover {
     background-color: lime;
     color: black;
     border-radius: 5px;
 }
 
+.container-master {
+    display: flex;
+}
+
 .container {
     display: grid;
-    grid-template-columns: 480px 485px;
-    max-width: 1000px;
-    height: 203px;
+    grid-template-columns: 1fr;
+    max-width: 700px;
+    max-height: 600px;
     padding: 4px;
     background-color: aliceblue;
     box-shadow: 1px 1px 3px black;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'kanit';
     font-style: italic;
+    margin-right: 3px;
+}
+
+.nameA {
+    color: rgb(212, 68, 1);
+}
+
+.nameB {
+    color: rgb(0, 111, 155);
 }
 
 .item {
-    font-size: 20px;
+    font-size: 17px;
     padding: 5px;
 }
 
@@ -104,7 +123,7 @@ body {
     border: none;
     background-color: rgb(229, 243, 255);
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(255, 51, 0);
     border-radius: 4px;
     border-bottom: steelblue 1px solid;
@@ -114,24 +133,24 @@ body {
 }
 
 #input1 {
-    width: 35px;
+    width: 175px;
 }
 
 #input2 {
-    width: 35px;
+    width: 240px;
     margin-left: 2px;
 }
 
 #input3 {
-    width: 35px;
+    width: 40px;
 }
 
 #input4 {
-    width: 60px;
+    width: 140px;
 }
 
 #input5 {
-    width: 35px;
+    width: 60px;
 }
 
 #input6 {
@@ -139,15 +158,16 @@ body {
 }
 
 #input7 {
-    width: 35px;
+    width: 75px;
 }
 
 #input8 {
-    width: 20px;
+    width: 35px;
     margin-left: 1px;
 }
 
 .correct {
     visibility: hidden;
 }
+
 

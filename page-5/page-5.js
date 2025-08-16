@@ -97,6 +97,7 @@ addEventListener('keyup', (e) => {
 
 addEventListener('keyup', (e) => {
     if (input8.value === "are") {
+        input8.value = "are"
         correct8.style.visibility = 'visible'
         input8.style.color = 'green'
         input8.style.backgroundColor = 'yellow'

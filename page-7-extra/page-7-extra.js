@@ -33,9 +33,9 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input2.value === "are" || input2.value === 'are') {
+    if (input2.value === "am" || input2.value === "'m") {
         correct2.style.visibility = 'visible'
-        input2.value = "Are"
+        input2.value = "'m"
         input2.style.color = 'green'
         input2.style.backgroundColor = 'yellow'
         document.getElementById('input3').focus();
@@ -44,9 +44,9 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input3.value === "are") {
+    if (input3.value === "What is" || input3.value === "What's" || input3.value === "what is" || input3.value === "what's") {
         correct3.style.visibility = 'visible'
-        input3.value = "are"
+        input3.value = "What's"
         input3.style.color = 'darkgreen'
         input3.style.backgroundColor = 'yellow'
         document.getElementById('input4').focus();
@@ -55,7 +55,8 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input4.value === "meet") {
+    if (input4.value === "is" || input4.value === "'s") {
+        input4.value = "is"
         correct4.style.visibility = 'visible'
         input4.style.color = 'darkgreen'
         input4.style.backgroundColor = 'yellow'
@@ -65,8 +66,8 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input5.value === "Are" || input5.value === "are") {
-        input5.value = "Are"
+    if (input5.value === "phone") {
+        input5.value = "phone"
         correct5.style.visibility = 'visible'
         input5.style.color = 'darkgreen'
         input5.style.backgroundColor = 'yellow'
@@ -76,7 +77,8 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input6.value === "not") {
+    if (input6.value === "It is" || input6.value === "it is" || input6.value === "It's" || input6.value === "it's") {
+        input6.value = "It's"
         correct6.style.visibility = 'visible'
         input6.style.color = 'green'
         input6.style.backgroundColor = 'yellow'
@@ -86,8 +88,8 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input7.value === "Are" || input7.value === "are") {
-        input7.value = "are"
+    if (input7.value === "address") {
+        input7.value = "address"
         correct7.style.visibility = 'visible'
         input7.style.color = 'green'
         input7.style.backgroundColor = 'yellow'
@@ -97,11 +99,13 @@ addEventListener('keyup', (e) => {
 })
 
 addEventListener('keyup', (e) => {
-    if (input8.value === "'m" || input8.value === "am") {
-        input8.value = "'m"
+    if (input8.value === "It is" || input8.value === "It's" || input8.value === "it is" || input8.value === "it's") {
+        input8.value = "It's"
         correct8.style.visibility = 'visible'
         input8.style.color = 'green'
         input8.style.backgroundColor = 'yellow'
         input8.disabled = true
     }
 })
+
+
