@@ -100,6 +100,12 @@ body {
     top: 100px;
 }
 
+.master-container-D {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+
 .container-B {
     display: flex;
     flex-direction: column;
@@ -116,6 +122,27 @@ body {
     top: -90px;
     margin-left: 1px;
     margin-bottom: 1px;
+}
+
+.container-D {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 890px;
+    height:400px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'kanit';
+    font-style: italic;
+    position: relative;
+    top: -90px;
+    margin: 80px 0px 0px 0px;
+}
+
+.btn-options-d {
+    display: flex;
 }
 
 .item {
@@ -158,6 +185,12 @@ body {
 .btn-box3 {
     position: absolute;
     top: 445px;
+    left: 740px;
+}
+
+.btn-box4 {
+    position: absolute;
+    top: 370px;
     left: 740px;
 }
 

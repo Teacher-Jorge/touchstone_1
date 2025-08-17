@@ -334,6 +334,121 @@ checkBtnC.addEventListener('click', function() {
     checkBtnC.style.visibility = 'hidden'
 })
 
+//EXERCISE D
+
+const btnD1a = document.getElementById('btnD1a')
+const btnD1b = document.getElementById('btnD1b')
+const btnD1c = document.getElementById('btnD1c')
+
+const btnD2a = document.getElementById('btnD2a')
+const btnD2b = document.getElementById('btnD2b')
+const btnD2c = document.getElementById('btnD2c')
+
+const btnD3a = document.getElementById('btnD3a')
+const btnD3b = document.getElementById('btnD3b')
+const btnD3c = document.getElementById('btnD3c')
+
+const optionD1 = document.getElementById('optionD1')
+const optionD2 = document.getElementById('optionD2')
+const optionD3 = document.getElementById('optionD3')
+
+const checkBtnD = document.getElementById('checkBtnD')
+
+btnD1a.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD1.innerHTML = "Mr. Smith"
+    btnD1a.style.boxShadow = 'none'
+    valor++
+})
+
+btnD1b.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD1.innerHTML = "Ms. Smith"
+    btnD1b.style.boxShadow = 'none'
+})
+
+btnD1c.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD1.innerHTML = "Mrs. Smith"
+    btnD1c.style.boxShadow = 'none'
+})
+
+btnD2a.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD2.innerHTML = "Mrs. Gonzalez"
+    btnD2a.style.boxShadow = 'none'
+    valor++
+})
+
+btnD2b.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD2.innerHTML = "Miss. Gonzalez"
+    btnD2b.style.boxShadow = 'none'
+})
+
+btnD2c.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD2.innerHTML = "Mr. Gonzalez"
+    btnD2c.style.boxShadow = 'none'
+})
+
+btnD3a.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD3.innerHTML = "first"
+    btnD3a.style.boxShadow = 'none'
+    checkBtnD.style.visibility = 'visible'
+})
+
+btnD3b.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD3.innerHTML = "middle"
+    btnD3b.style.boxShadow = 'none'
+    valor++
+    checkBtnD.style.visibility = 'visible'
+})
+
+btnD3c.addEventListener('click', function() {
+    audio = document.getElementById('click')
+    audio.play()
+    optionD3.innerHTML = "last"
+    btnD3c.style.boxShadow = 'none'
+    checkBtnD.style.visibility = 'visible'
+})
+
+checkBtnD.addEventListener('click', function(){
+    audio = document.getElementById('click')
+    audio.play()
+    btnD1a.style.backgroundColor = "lime"
+    btnD1a.style.color = "maroon"
+
+    btnD2a.style.backgroundColor = "lime"
+    btnD2a.style.color = "maroon"
+
+    btnD3b.style.backgroundColor = "lime"
+    btnD3b.style.color = "maroon"
+    score.innerHTML = valor
+    checkBtnD.style.visibility = "hidden"
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
