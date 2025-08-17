@@ -160,6 +160,7 @@ checkBtnA.addEventListener('click', function() {
         btn4c.style.color = 'darkgreen'
         btn4c.style.boxShadow = 'none'
         score.innerHTML = valor
+        checkBtnA.style.visibility = 'hidden'
     })
 
 //EXERCISE B
@@ -180,52 +181,8 @@ addEventListener('keydown', (e) => {
     audio.play()
 })
 
-inputb1.addEventListener('keyup', (e) => {
-    if (inputb1.value === "are" || inputb1.value === "'re") {
-        valor++
-    } 
-})
 
-inputb2.addEventListener('keyup', (e) => {
-    if (inputb2.value === "am") {
-        valor++
-    }
-})
-
-inputb3.addEventListener('keyup', (e) => {
-    if (inputb3.value === "Am") {
-        valor++
-    } 
-})
-
-inputb4.addEventListener('keyup', (e) => {
-    if (inputb4.value === "are" || inputb4.value === "'re") {
-        valor++
-    } 
-})
-
-inputb5.addEventListener('keyup', (e) => {
-    if (inputb5.value === "Are") {
-        valor++
-    } 
-})
-
-inputb6.addEventListener('keyup', (e) => {
-    if (inputb6.value === "am" || inputb6.value === "'m") {
-        valor++
-    } 
-})
-
-inputb7.addEventListener('keyup', (e) => {
-    if (inputb7.value === "Are") {
-        valor++
-    } 
-})
-
-inputb8.addEventListener('keyup', (e) => {
-    if (inputb8.value === "am" || inputb8.value === "'m") {
-        valor++
-    }
+inputb8.addEventListener('keyup', function() {
     checkBtnB.style.visibility = 'visible'
 })
 
@@ -233,73 +190,82 @@ inputb8.addEventListener('keyup', (e) => {
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb1.value === "are") {
         inputb1.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb2.value === "am" || inputb2.value === "'m") {
         inputb2.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb3.value === "Am") {
         inputb3.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb4.value === "are" || inputb4.value === "'re") {
         inputb4.style.color = "green"
+        valor++
     }
+     score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb5.value === "Are") {
         inputb5.style.color = "green"
+        valor++
     }
+     score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb6.value === "am" || inputb6.value === "'m") {
         inputb6.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb7.value === "Are") {
         inputb7.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnB.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputb8.value === "am" || inputb8.value === "'m") {
         inputb8.style.color = "green"
+        valor++
+        score.innerHTML = valor
     }
+    checkBtnB.style.visibility = 'hidden'
 })
 
 //EXERCISE C
@@ -312,80 +278,60 @@ const inputc5 = document.getElementById('inputc5')
 
 const checkBtnC = document.getElementById('checkBtnC')
 
-inputc1.addEventListener('keyup', (e) => {
-    if (inputc1.value === "first name") {
-        valor++
-    } 
-})
-
-inputc2.addEventListener('keyup', (e) => {
-    if (inputc2.value === "last name") {
-        valor++
-    }
-})
-
-inputc3.addEventListener('keyup', (e) => {
-    if (inputc3.value === "phone number") {
-        valor++
-    } 
-})
-
-inputc4.addEventListener('keyup', (e) => {
-    if (inputc4.value === "email address") {
-        valor++
-    } 
-})
-
-inputc5.addEventListener('keyup', (e) => {
-    if (inputc5.value === "teacher's name" || inputc5.value === "teachers name" ) {
-        valor++
-        checkBtnC.style.visibility = 'visible'
-    } 
+inputc5.addEventListener('keyup', function() {
+    checkBtnC.style.visibility = 'visible'
 })
 
 checkBtnC.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputc1.value === "first name") {
         inputc1.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnC.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
+    
     if (inputc2.value === "last name") {
         inputc2.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnC.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputc3.value === "phone number") {
         inputc3.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnC.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputc4.value === "email address") {
         inputc4.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
 })
 
 checkBtnC.addEventListener('click', function() {
     audio = document.getElementById('click')
     audio.play()
-    score.innerHTML = valor
     if (inputc5.value === "teachers name" || inputc5.value === "teacher's name" ) {
         inputc5.style.color = "green"
+        valor++
     }
+    score.innerHTML = valor
+    checkBtnC.style.visibility = 'hidden'
 })
 
 
